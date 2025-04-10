@@ -40,7 +40,7 @@ async def onlineChecker():
 
             print("ONLINE CHECKED ON: " + line.rstrip())
 
-bot.send_message(chat_id='@herbatalove', text='Скрипт по обнаружению запущен')
+bot.send_message(chat_id='me', text='Скрипт по обнаружению запущен')
 
 async def at_minute_start(cb):
     while True:

@@ -4,8 +4,6 @@ async def check_online_status(app, user_id):
         try:
             user = await app.get_users(user_id)
 
-            print(user)
-
             if str(user.status) == "UserStatus.ONLINE":
                 print(f"User {user_id} is currently online")
                 return 1
