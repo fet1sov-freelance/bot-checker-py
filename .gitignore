@@ -1,0 +1,7 @@
+.env
+__pycache__
+radar.db
+*.session
+*.session-journal
+
+.venv
