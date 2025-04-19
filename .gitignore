@@ -3,5 +3,3 @@ __pycache__
 radar.db
 *.session
 *.session-journal
-
-.venv
